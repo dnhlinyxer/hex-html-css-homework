@@ -30,7 +30,7 @@
                     </li>
                 </ul>
             </div>
-            <nav>
+            <nav class="navbar">
                 <h1>
                     <a href="#">Hex School</a>    
                 </h1>
@@ -132,26 +132,30 @@
                     對我們課程有興趣嗎？<br>歡迎留下您的資料
                 </h2>
                 <form action="index.html">
-                    <textarea name="message" id="message" placeholder="請輸入您的留言"></textarea>
+                    <textarea name="message" id="message" class="contact-message" placeholder="請輸入您的留言"></textarea>
                     <div class="contactInfo">
                         <label for="name">姓名</label>
                         <input id="name" type="text" name="name" required placeholder="請輸入您的姓名">
                         <label for="phone">電話</label>
                         <input id="phone" type="tel" name="phone" required placeholder="請輸入您的電話">
                         <label for="mail">電子郵件</label>
-                        <input id="mail" type="mail" name="mail" required placeholder="請輸入您的電子郵件">
+                        <input id="email" type="email" name="email" required placeholder="請輸入您的電子郵件">
                         <input class="btn" type="submit" value="送出" >
                     </div>
                 </form>
             </div>
         </main>
-        <footer>
+        <footer class="footer">
             <h2>
                 <a href="#">Hex School</a>
             </h2>
             <ul>
-                <li>聯絡我們： hexschool@gmail.com</li>
-                <li>電話： 0999123456</li>
+                <li>
+                    聯絡我們： <a href="mailto:hexschool@gmail.com">hexschool@gmail.com</a>
+                </li>
+                <li>
+                    電話： <a href="tel:+886-0999123456">0999123456</a>
+                </li>
             </ul>
         </footer>
     </div>
